@@ -86,7 +86,7 @@ public:
         ::new (static_cast<void*>(slot->event_storage)) EventType(std::forward<Args>(args)...);
         slot->sequence.store(ticket + 1, std::memory_order_release);
     }
-
+// cristianoooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
     template <typename EventHandler>
     void consume_next(EventHandler&& handler) noexcept {
         uint64_t ticket = consumer_sequence_.load(std::memory_order_relaxed);
