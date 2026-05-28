@@ -16,11 +16,7 @@
 
 export module EventDispatcher;
 
-import <cstdint>;
-import <cstddef>;
-import <atomic>;
-import <new>;
-import <utility>;
+import std;
 
 export template <typename EventType>
 struct alignas(64) EventSlot {
