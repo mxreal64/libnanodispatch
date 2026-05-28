@@ -55,18 +55,15 @@ The dispatcher automatically maps optimized assembly instructions to your proces
 * **ARM64 / Apple Silicon / Graviton**: Evaluates to inline `yield` memory barriers.
 
 ## License
-// Copyright (C) 2026 mxreal64
-//
-// This program is free software: you can redistribute it and/or modify
-// it under the terms of the GNU General Public License as published by
-// the Free Software Foundation, either version 3 of the License, or
-// (at your option) any later version.
-//
-// This program is distributed in the hope that it will be useful,
-// but WITHOUT ANY WARRANTY; without even the implied warranty of
-// MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
-// GNU General Public License for more details.
-//
-// You should have received a copy of the GNU General Public License
-// along with this program. If not, see <https://gnu.org>.
-A blazing-fast, lock-free, zero-allocation MPMC event dispatcher using C++23 modules. Implements an LMAX Disruptor-style sequence barrier ring buffer with raw storage tracking, custom RAII element destruction, and cross-platform assembly spin-relax primitives for sub-microsecond latency. pretty cool, right?
+
+Copyright (C) 2026 mxreal64
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+GNU General Public License for more details.
+You should have received a copy of the GNU General Public License
+along with this program. If not, see <https://gnu.org>.
